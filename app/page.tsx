@@ -1,0 +1,64 @@
+"use client"
+import Pres50_2024 from "@/vectors/pres50_2024";
+import Image from "next/image";
+import { useEffect, useState } from "react";
+
+
+export default function Home() {
+
+
+    const [states, setStates] = useState(null);
+
+    useEffect(() => {
+        {
+            // Todo
+        }
+    }, []);
+
+    // if (!states) {
+    //     return null;
+    // }
+
+    return (
+        <div id="content" style={{
+            padding: "1rem",
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
+            <div className="flex" style={{
+                display: 'flex',
+            }}>
+                <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="10" height="10" fill="#003EB8" />
+                    <path d="M2.25 1.375L2.44645 1.97961H3.08217L2.56786 2.35328L2.76431 2.95789L2.25 2.58422L1.73569 2.95789L1.93214 2.35328L1.41783 1.97961H2.05355L2.25 1.375Z" fill="white" />
+                    <path d="M5 1.375L5.19645 1.97961H5.83217L5.31786 2.35328L5.51431 2.95789L5 2.58422L4.48569 2.95789L4.68214 2.35328L4.16783 1.97961H4.80355L5 1.375Z" fill="white" />
+                    <path d="M7.75 1.375L7.94645 1.97961H8.58217L8.06786 2.35328L8.26431 2.95789L7.75 2.58422L7.23569 2.95789L7.43214 2.35328L6.91783 1.97961H7.55355L7.75 1.375Z" fill="white" />
+                    <path d="M2.25 4.125L2.44645 4.72961H3.08217L2.56786 5.10328L2.76431 5.70789L2.25 5.33422L1.73569 5.70789L1.93214 5.10328L1.41783 4.72961H2.05355L2.25 4.125Z" fill="white" />
+                    <path d="M5 4.125L5.19645 4.72961H5.83217L5.31786 5.10328L5.51431 5.70789L5 5.33422L4.48569 5.70789L4.68214 5.10328L4.16783 4.72961H4.80355L5 4.125Z" fill="white" />
+                    <path d="M7.75 4.125L7.94645 4.72961H8.58217L8.06786 5.10328L8.26431 5.70789L7.75 5.33422L7.23569 5.70789L7.43214 5.10328L6.91783 4.72961H7.55355L7.75 4.125Z" fill="white" />
+                    <path d="M2.25 6.875L2.44645 7.47961H3.08217L2.56786 7.85328L2.76431 8.45789L2.25 8.08422L1.73569 8.45789L1.93214 7.85328L1.41783 7.47961H2.05355L2.25 6.875Z" fill="white" />
+                    <path d="M5 6.875L5.19645 7.47961H5.83217L5.31786 7.85328L5.51431 8.45789L5 8.08422L4.48569 8.45789L4.68214 7.85328L4.16783 7.47961H4.80355L5 6.875Z" fill="white" />
+                    <path d="M7.75 6.875L7.94645 7.47961H8.58217L8.06786 7.85328L8.26431 8.45789L7.75 8.08422L7.23569 8.45789L7.43214 7.85328L6.91783 7.47961H7.55355L7.75 6.875Z" fill="white" />
+                    <rect width="10" height="4" transform="translate(12)" fill={'#CF4949'} />
+                    <rect width="10" height="4" transform="translate(12 6)" fill="white" />
+                    <rect width="10" height="4" transform="translate(0 12)" fill="white" />
+                    <rect width="10" height="4" transform="translate(12 12)" fill={'#CF4949'} />
+                </svg>
+            <h1 style={{
+                fontSize: '0.875rem',
+                padding: 0,
+                margin: "0 0 1rem 1rem"
+            }}>Politics is just a game.</h1>
+
+            </div>
+            <div style={{
+                padding: "2rem",
+                backgroundColor: '#242424',
+                width: "fit-content",
+                borderRadius: '0.5rem'
+            }}>
+                {/* <Pres50_2024 states={states} /> */}
+            </div>
+        </div>
+    )
+}

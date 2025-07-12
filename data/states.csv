@@ -1,0 +1,70 @@
+state,state_abbr,territory_category,electoral_votes
+Alabama,AL,us_state,9
+Alaska,AK,us_state,3
+Alberta,AB,us_state,3
+American Samoa,AS,us_territory,3
+Arizona,AZ,us_state,11
+Arkansas,AR,us_state,6
+British Columbia,BC,canadian_province,3
+California,CA,us_state,54
+Colorado,CO,us_state,10
+Connecticut,CT,us_state,7
+Delaware,DE,us_state,3
+District of Columbia,DC,us_district_of_columbia,3
+Florida,FL,us_state,30
+Georgia,GA,us_state,16
+Guam,GU,us_territory,3
+Hawaii,HI,us_state,4
+Idaho,ID,us_state,4
+Illinois,IL,us_state,19
+Indiana,IN,us_state,11
+Iowa,IA,us_state,6
+Kansas,KS,us_state,6
+Kentucky,KY,us_state,8
+Louisiana,LA,us_state,8
+Maine,ME,us_state,4
+Manitoba,MB,us_state,3
+Maryland,MD,us_state,10
+Massachusetts,MA,us_state,11
+Michigan,MI,us_state,15
+Minnesota,MN,us_state,10
+Mississippi,MS,us_state,6
+Missouri,MO,us_state,10
+Montana,MT,us_state,4
+Nebraska,NE,us_state,5
+Nevada,NV,us_state,6
+New Brunswick,NB,canadian_province,3
+New Hampshire,NH,us_state,4
+New Jersey,NJ,us_state,14
+New Mexico,NM,us_state,5
+New York,NY,us_state,28
+Newfoundland and Labrador,NL,canadian_province,3
+North Carolina,NC,us_state,16
+North Dakota,ND,us_state,3
+Northern Mariana Islands,NM,us_territory,3
+Northwest Territories,NT,canadian_province,3
+Nova Scotia,NS,canadian_province,3
+Nunavut,NU,canadian_province,3
+Ohio,OH,us_state,17
+Oklahoma,OK,us_state,7
+Ontario,ON,us_state,3
+Oregon,OR,us_state,8
+Pennsylvania,PA,us_state,19
+Prince Edward Island,PE,canadian_province,3
+Puerto Rico,PR,us_territory,3
+Quebec,QC,canadian_province,3
+Rhode Island,RI,us_state,4
+Saskatchewan,SK,canadian_province,3
+South Carolina,SC,us_state,9
+South Dakota,SD,us_state,3
+Tennessee,TN,us_state,11
+Texas,TX,us_state,40
+U.S. Virgin Islands,VI,us_territory,3
+Utah,UT,us_state,6
+Vermont,VT,us_state,3
+Virginia,VA,us_state,13
+Washington,WA,us_state,12
+West Virginia,WV,us_state,4
+Wisconsin,WI,us_state,10
+Wyoming,WY,us_state,3
+Yukon,YU,canadian_province,3
