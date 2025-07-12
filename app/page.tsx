@@ -1,103 +1,64 @@
+"use client"
+import Pres50_2024 from "@/vectors/pres50_2024";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+
+    const [states, setStates] = useState(null);
+
+    useEffect(() => {
+        {
+            // Todo
+        }
+    }, []);
+
+    // if (!states) {
+    //     return null;
+    // }
+
+    return (
+        <div id="content" style={{
+            padding: "1rem",
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
+            <div className="flex" style={{
+                display: 'flex',
+            }}>
+                <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="10" height="10" fill="#003EB8" />
+                    <path d="M2.25 1.375L2.44645 1.97961H3.08217L2.56786 2.35328L2.76431 2.95789L2.25 2.58422L1.73569 2.95789L1.93214 2.35328L1.41783 1.97961H2.05355L2.25 1.375Z" fill="white" />
+                    <path d="M5 1.375L5.19645 1.97961H5.83217L5.31786 2.35328L5.51431 2.95789L5 2.58422L4.48569 2.95789L4.68214 2.35328L4.16783 1.97961H4.80355L5 1.375Z" fill="white" />
+                    <path d="M7.75 1.375L7.94645 1.97961H8.58217L8.06786 2.35328L8.26431 2.95789L7.75 2.58422L7.23569 2.95789L7.43214 2.35328L6.91783 1.97961H7.55355L7.75 1.375Z" fill="white" />
+                    <path d="M2.25 4.125L2.44645 4.72961H3.08217L2.56786 5.10328L2.76431 5.70789L2.25 5.33422L1.73569 5.70789L1.93214 5.10328L1.41783 4.72961H2.05355L2.25 4.125Z" fill="white" />
+                    <path d="M5 4.125L5.19645 4.72961H5.83217L5.31786 5.10328L5.51431 5.70789L5 5.33422L4.48569 5.70789L4.68214 5.10328L4.16783 4.72961H4.80355L5 4.125Z" fill="white" />
+                    <path d="M7.75 4.125L7.94645 4.72961H8.58217L8.06786 5.10328L8.26431 5.70789L7.75 5.33422L7.23569 5.70789L7.43214 5.10328L6.91783 4.72961H7.55355L7.75 4.125Z" fill="white" />
+                    <path d="M2.25 6.875L2.44645 7.47961H3.08217L2.56786 7.85328L2.76431 8.45789L2.25 8.08422L1.73569 8.45789L1.93214 7.85328L1.41783 7.47961H2.05355L2.25 6.875Z" fill="white" />
+                    <path d="M5 6.875L5.19645 7.47961H5.83217L5.31786 7.85328L5.51431 8.45789L5 8.08422L4.48569 8.45789L4.68214 7.85328L4.16783 7.47961H4.80355L5 6.875Z" fill="white" />
+                    <path d="M7.75 6.875L7.94645 7.47961H8.58217L8.06786 7.85328L8.26431 8.45789L7.75 8.08422L7.23569 8.45789L7.43214 7.85328L6.91783 7.47961H7.55355L7.75 6.875Z" fill="white" />
+                    <rect width="10" height="4" transform="translate(12)" fill={'#CF4949'} />
+                    <rect width="10" height="4" transform="translate(12 6)" fill="white" />
+                    <rect width="10" height="4" transform="translate(0 12)" fill="white" />
+                    <rect width="10" height="4" transform="translate(12 12)" fill={'#CF4949'} />
+                </svg>
+            <h1 style={{
+                fontSize: '0.875rem',
+                padding: 0,
+                margin: "0 0 1rem 1rem"
+            }}>Politics is just a game.</h1>
+
+            </div>
+            <div style={{
+                padding: "2rem",
+                backgroundColor: '#242424',
+                width: "fit-content",
+                borderRadius: '0.5rem'
+            }}>
+                {/* <Pres50_2024 states={states} /> */}
+            </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+    )
 }
