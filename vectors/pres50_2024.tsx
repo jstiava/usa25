@@ -3,8 +3,6 @@ import { useState } from "react";
 import { COLORS, STATE_CONGRESSIONAL_DISTRICT_MAPS_2024, STATE_CONGRESSIONAL_MAP_NAMES, STATE_NAMES, STATES } from "./states";
 import RedElephantPuckIcon from "@/components/RedElephantPuckIcon";
 import BlueDonkeyPuckIcon from "@/components/BlueDonkeyPuckIcon";
-import { ExampleCombobox } from "@/components/ui/Combobox";
-import { Button } from "@/components/ui/button";
 
 
 export interface Pres50_2024_Props {
@@ -76,8 +74,6 @@ export default function Pres50_2024(props: Pres50_2024_Props) {
             display: 'flex',
             flexDirection: 'column'
         }}>
-            <ExampleCombobox />
-            <Button >Help this is a button.</Button>
 
             <div style={{
                 display: 'flex',

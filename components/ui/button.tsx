@@ -48,12 +48,6 @@ function Button({
   const Comp = asChild ? Slot : "button"
 
   return (
-    <div className="flex flex-wrap items-center gap-2 md:flex-row">
-      <Button>Button</Button>
-    </div>
-  )
-
-  return (
     <Comp
       data-slot="button"
       className={cn(buttonVariants({ variant, size, className }))}

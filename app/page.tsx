@@ -1,4 +1,5 @@
 "use client"
+import { Button } from "@/components/ui/button";
 import Pres50_2024 from "@/vectors/pres50_2024";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -50,6 +51,8 @@ export default function Home() {
                 margin: "0 0 1rem 1rem"
             }}>Politics is just a game.</h1>
 
+            <Button>This is a test button</Button>
+
             </div>
             <div style={{
                 padding: "2rem",
@@ -57,7 +60,7 @@ export default function Home() {
                 width: "fit-content",
                 borderRadius: '0.5rem'
             }}>
-                {/* <Pres50_2024 states={states} /> */}
+                <Pres50_2024 states={states} />
             </div>
         </div>
     )
